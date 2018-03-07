@@ -1,3 +1,7 @@
+# Hashset (COMP2000 - Data Structures)
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/knighthawkbro/hash)](https://goreportcard.com/report/github.com/knighthawkbro/hash)
+
 What it can do:
 - Create an hashset and perform functions as a datatype hash
 - Runs through a driver program testing all the hash functions
