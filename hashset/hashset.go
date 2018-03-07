@@ -42,7 +42,7 @@ func (h *HashSet) Init(capacity int) *HashSet {
 func New() *HashSet { return new(HashSet).Init(19) }
 
 // Add (Public) - adds a node to the collection, also if there is
-// multiple nodes at an index, it adds it to the begining for speed
+// multiple nodes at an index, it adds it to the beginning for speed
 func (h *HashSet) Add(item string) bool {
 	err := checkForNil(item)
 	if err != nil {
